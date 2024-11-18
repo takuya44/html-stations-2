@@ -1,3 +1,5 @@
 node_modules/*
 converage/*
 .techtrain/config.toml
+# macOS system files
+.DS_Store
