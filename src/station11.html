@@ -9,6 +9,26 @@
   <body>
     <main>
       <form action="" method="post">
+        <!-- メールアドレス -->
+        <label for="email">メールアドレス（必須）:</label>
+        <input type="email" id="email" name="email" required />
+        <br />
+
+        <!-- パスワード -->
+        <label for="password">パスワード（必須）:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          required
+          minlength="6"
+        />
+        <br />
+
+        <!-- ニックネーム -->
+        <label for="nickname">ニックネーム（任意、20文字以下）:</label>
+        <input type="text" id="nickname" name="nickname" maxlength="20" />
+        <br />
         <button type="submit">送信</button>
       </form>
     </main>

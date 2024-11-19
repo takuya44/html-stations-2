@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+/* フェードインのアニメーションを定義 */
+@keyframes fadeIn {
+  0% {
+    opacity: 0; /* 完全に透明 */
+  }
+  100% {
+    opacity: 1; /* 完全に表示 */
+  }
+}
+
+/* アニメーション対象のスタイル */
+#animation {
+  opacity: 0; /* 初期状態を透明に設定 */
+  animation: fadeIn 2s forwards; /* 2秒でフェードインし、アニメーション後にその状態を保持 */
+}
